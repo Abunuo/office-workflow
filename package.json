@@ -1,0 +1,46 @@
+{
+  "name": "office-workflow",
+  "version": "1.0.0",
+  "description": "仿钉钉审批流程创建模板",
+  "author": "Monologue",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:Abunuo/office-workflow.git"
+  },
+  "keywords": [
+    "workflow",
+    "审批流程",
+    "钉钉"
+  ],
+  "bugs": {
+    "url": "https://github.com/Abunuo/office-workflow/issues"
+  },
+  "homepage": "https://github.com/Abunuo/office-workflow#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dayjs": "^1.10.4",
+    "element-plus": "^1.0.2-beta.32",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.21",
+    "mitt": "^2.1.0",
+    "vxe-table": "^4.0.0-beta.13",
+    "xe-utils": "^3.1.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vue/compiler-sfc": "3.0.11",
+    "autoprefixer": "^10.2.4",
+    "cross-env": "^7.0.3",
+    "sass": "^1.32.8",
+    "vite": "^2.0.1",
+    "vue": "3.0.11",
+    "vue-router": "^4.0.4",
+    "vuex": "^4.0.0"
+  }
+}

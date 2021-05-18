@@ -1,0 +1,151 @@
+@charset "utf-8";
+/**
+ * Yo框架全局Reset
+ * Yo重置Mobile及高级浏览器上常见的差异
+ */
+// 1. 清除body的默认margin
+// 2. 定义页面的默认字号
+// 3. 定义页面的默认行高
+// 4. 定义页面的默认字体
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// 1. 清除某些元素在不同浏览器下内外补白不同造成的影响
+blockquote,
+button,
+dd,
+dl,
+fieldset,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul,
+xmp {
+  margin: 0;
+  padding: 0;
+}
+// 1. 为不继承的元素设定继承父级行高
+// 2. 为不继承的元素设定继承父级字体
+
+button,
+code,
+input,
+kbd,
+pre,
+samp,
+select,
+textarea,
+tt,
+xmp {
+  line-height: inherit;
+  font-family: inherit;
+}
+// 1. 为不继承的元素设定继承父级字号
+big,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+small,
+textarea {
+  font-size: inherit;
+}
+// 1. 重置斜体表现为正常文本
+address,
+cite,
+dfn,
+em,
+i,
+optgroup,
+var {
+  font-style: normal;
+}
+// 1. 清除单元格边距并让边框合并
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  text-align: left;
+}
+// 1. 清除列表默认序号
+menu,
+ol,
+ul {
+  list-style: none;
+}
+// 1. 清除默认边框
+// 2. 清除img底部留白问题，并使得默认居中
+
+fieldset,
+img {
+  border: 0;
+  vertical-align: middle;
+}
+// 1. 设置HTML5部分新增元素为块元素
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+// 1. 设置HTML5新增媒体元素与img, object保持一致
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+// 1. 设置文本域滚可拖动改变垂直方向尺寸
+textarea {
+  resize: vertical;
+}
+// 1. 清除webkit下表单元素的outline
+button,
+input,
+select a,
+textarea {
+  outline: 0 none;
+}
+// 1. 重置mark元素的默认背景色
+mark {
+  background-color: rgba(0, 0, 0, 0);
+}
+// 1. 清除文本线条装饰
+a,
+del,
+ins,
+s,
+u {
+  text-decoration: none;
+}
