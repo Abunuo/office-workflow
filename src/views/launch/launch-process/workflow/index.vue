@@ -115,6 +115,7 @@
 	}
 </script>
 <style>
+	@import './assets/styles/iconfont.scss';
 	@import './assets/styles/override-element-ui.scss';
 	@import './assets/styles/workflow.scss';
 	.error-modal-list {

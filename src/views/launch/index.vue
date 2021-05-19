@@ -20,8 +20,8 @@
 				</template>
 			</div>
 			<template #extends>
-				<el-button class="ant-btn button-publish" @click="preview"><span>预 览</span></el-button>
-				<el-button class="ant-btn button-publish" @click="publish"><span>发 布</span></el-button>
+				<el-button class="button-publish" @click="preview"><span>预 览</span></el-button>
+				<el-button class="button-publish" @click="publish"><span>发 布</span></el-button>
 			</template>
 		</nav-header>
 		<!-- 流程模块 -->
@@ -151,6 +151,10 @@
 		width: 100%;
 		height: 100%;
 		min-width: 1000px;
+		background: #f6f6f6;
+		.button-publish {
+			font-size: 14px;
+		}
 	}
 	::v-deep() {
 		.el-textarea__inner:hover {
